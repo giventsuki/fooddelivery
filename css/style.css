@@ -1,0 +1,73 @@
+:root{
+  --orange: #FA4A0C;
+}
+
+
+
+/* -----------HEADER -----------*/
+.face{
+  background: url('../img/main-bg.jpg') no-repeat center center;
+  background-size: cover;
+  
+  z-index: -1;
+}
+
+.face #face-row2, .download .row {
+  padding-bottom: 100px;
+}
+.face h1, .face h4 {
+  font-size: 3rem;
+}
+.face .buttons {
+  padding-bottom: 80px;
+  z-index: 1
+}
+
+.buttons .btn{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+
+/* ----------download------------ */
+.download{
+  background: url('../img/last-bg.jpg') no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  padding-top: 80px;
+}
+
+
+
+/* ----------Mobile App ---------*/
+.mobile-app #mobileApp-wrapper{
+  margin-top: -20%;
+  margin-left: -10%;
+}
+#mobileApp{
+  width: 40%;
+}
+#createAcc-img, 
+#variaties-img,
+#checkout-img{
+  margin-left: 10%;
+}
+
+
+#createAcc .link,
+#variaties .link,
+#checkout .link {
+  text-decoration: none;
+  font-size: 2rem;
+}
+#createAcc h2,
+#variaties h2, 
+#checkout h2{
+  font-size: 3rem;
+}
+#createAcc p, 
+#variaties p, 
+#checkout p{
+  font-size: 1.5rem;
+}
